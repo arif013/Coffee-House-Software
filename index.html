@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Your Cup</h1>
+    <form >
+        <h2>Coffee type</h2>
+            <input type="radio" value="espresso" name="radAns" id="espresso">
+            <label for="espresso" > Espresso</label>
+            <input type="radio" value="cappuccino" name="radAns" id="cappuccino">
+            <label for="cappuccino" > Cappuccino</label>
+            <input type="radio" value="latte" name="radAns" id="latte">
+            <label for="latte"> Latte</label>
+        <br>
+        <h2>Add on</h2>
+            <input type="radio" value="milk" name="rad" id="milk">
+            <label for="milk" > Milk</label>
+            <input type="radio" value="cream" name="rad" id="cream">
+            <label for="cream" > Cream</label>
+            <input type="radio" value="latte" name="rad" id="latt">
+            <label for="latte" > latte</label>
+        <br>
+        <button id="addToCart">Add</button>
+    </form>
+        <button id="submit">Submit</button>
+
+        <div class="receipt" id="receipt">
+            <ul>
+                <li>cream cappuccino: price/-</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./index2.js"></script>
+</body>
+</html>
